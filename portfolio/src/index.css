@@ -500,8 +500,6 @@
 .modeling-img {
     width: 400px;
     height: auto;
-    border: 1px solid #FFFFFF;
-    border-radius: 15px;
     flex-shrink: 0;
 }
 
