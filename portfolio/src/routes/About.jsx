@@ -45,10 +45,12 @@ const About = () => {
             </div>
           </div>
           <div className="window-body">
+            <div className="about-text">
             <h2 className="intro-name">Nice to meet you! I'm Emanuel...</h2>
             <p>A multidisciplinary designer and IT student based in Iloilo, Philippines.</p>
             <p>I bridge the gap between aesthetic UI/UX andfunctional development.</p>
             <p className="tagline">I don’t just build interfaces; <br />I engineer digital experiences.</p>
+            </div>
           </div>
         </div>
 
