@@ -213,7 +213,7 @@ const Home = () => {
     </section>
     </FadeIn>
 
-    </div> // End home-wrapper
+    </div> 
   );
 }
 
