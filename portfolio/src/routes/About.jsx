@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect, useRef } from 'react';
-import TiltedCard from '../components/TiltedCard';
+import TiltedCard from '../components/TiltedCard.jsx';
 import MyImage from '/img/485150347_977801797811132_7519280564660279552_n.jpg';
 
 const About = () => {
@@ -27,14 +27,13 @@ const About = () => {
   }, []);
 
   return (
-    // 1. The Observer watches this main section
+   
     <section className="about-section hidden" ref={domRef}>
       
       <div className="about">
         <h1>ABOUT ME</h1>
       </div>
 
-      {/* 2. This container uses your flexbox/grid CSS to position windows side-by-side */}
       <div className="about-container"> 
         <div className="window">
           <div className="window-header">

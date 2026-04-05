@@ -1,12 +1,12 @@
-import React, { useRef } from 'react'; // Added useRef
-import TextType from '../components/Textype';
-import TiltedCard from '../components/TiltedCard'; // Ensure this path is correct
-import MyImage from '/img/485150347_977801797811132_7519280564660279552_n.jpg'; // Ensure this path is correct
+import React, { useRef } from 'react'; 
+import TextType from '../components/Textype.jsx';
+import TiltedCard from '../components/TiltedCard.jsx'; 
+import MyImage from '/img/485150347_977801797811132_7519280564660279552_n.jpg'; 
 import { Link } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
 
 const Home = () => {
-  // 1. Define the ref for your intersection observer/scroll logic
+
   const domRef = useRef();
   const form = useRef();
   const sendEmail = (e) => {
@@ -20,7 +20,7 @@ const Home = () => {
     )
     .then((result) => {
         alert("Message sent successfully!");
-        e.target.reset(); // Clears the form after sending
+        e.target.reset(); 
     }, (error) => {
         alert("Failed to send message, please try again.");
     });
@@ -37,14 +37,14 @@ const Home = () => {
   ];
 
   return (
-    <div className="home-wrapper"> {/* Single parent wrapper */}
+    <div className="home-wrapper">
       
-      {/* --- HERO SECTION --- */}
+     
       <div className="intro-container">
         <div id="name">
           <h1>
   hi i'm{" "}
-  <span className="name-wrapper"> {/* Replaced inline minWidth with a class */}
+  <span className="name-wrapper"> 
     <TextType 
       text="EMANUEL MOSQUEDA" 
       speed={150} 

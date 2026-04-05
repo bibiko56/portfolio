@@ -1,14 +1,14 @@
 import React from 'react'
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbar.jsx'
 import { Routes,Route } from 'react-router'
-import Home from './routes/Home'
-import About from './routes/About'
-import Projects from './routes/Projects'
-import Contact from './routes/Contact'
-import Footer from './components/Footer'
+import Home from './routes/Home.jsx'
+import About from './routes/About.jsx'
+import Projects from './routes/Projects.jsx'
+import Contact from './routes/Contact.jsx'
+import Footer from './components/Footer.jsx'
 
 
-import Circles from './components/Circles'
+import Circles from './components/Circles.jsx'
 
 const App = () => {
   return (
