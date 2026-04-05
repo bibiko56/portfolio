@@ -4,6 +4,7 @@ import TiltedCard from '../components/TiltedCard.jsx';
 import MyImage from '/img/485150347_977801797811132_7519280564660279552_n.jpg'; 
 import { Link } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
+import FadeIn from '../FrameIn.jsx';
 
 const Home = () => {
 
@@ -70,6 +71,7 @@ const Home = () => {
       </div>
 
       {/* --- ABOUT SECTION --- */}
+      <FadeIn>
       <section className="about-section" ref={domRef}>
         <div className="about">
           <h1>ABOUT ME</h1>
@@ -123,8 +125,10 @@ const Home = () => {
           </div>
         </div>
       </section>
+      </FadeIn>
 
 
+      <FadeIn>
       <section className="about-section hidden" ref={domRef}>
            <div className="project">
         <h1>PROJECTS</h1>
@@ -176,6 +180,7 @@ const Home = () => {
     </Link>
 </div>
     </section>
+    </FadeIn>
 
 
     <section className="contact-section">
