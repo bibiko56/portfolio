@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
+import FadeIn from '../components/FrameIn';
 
 export const Projects = () => {
   const domRef = useRef();
@@ -8,12 +9,11 @@ export const Projects = () => {
 
   useEffect(() => {
     if (hash) {
-      // Remove the '#' and find the element with that ID
       const targetId = hash.replace('#', '');
       const element = document.getElementById(targetId);
       
       if (element) {
-        // Timeout ensures the DOM has fully rendered before scrolling
+        
         setTimeout(() => {
           element.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }, 100); 
@@ -40,7 +40,6 @@ export const Projects = () => {
     };
   }, []);
    return (
-    // 1. The Observer watches this main section
     <section className="about-section hidden" ref={domRef}>
            <div className="project">
         <h1>PROJECTS</h1>
@@ -107,6 +106,7 @@ export const Projects = () => {
 </div>
 
 {/*POSTER DESIGN*/}
+<FadeIn>
 <div className='modeling' id="poster-section">
     <h1 className="section-label">POSTER DESIGN</h1>
     
@@ -173,8 +173,10 @@ export const Projects = () => {
         </div>
     </div>
 </div>
+</FadeIn>
 
 {/*WEB DEVELOPMENT*/}
+<FadeIn>
 <div className='modeling' id="web-section">
     <h1 className="section-label">WEB DEVELOPMENT</h1>
     
@@ -236,6 +238,7 @@ export const Projects = () => {
     </div>
     
 </div>
+</FadeIn>
 
 
 

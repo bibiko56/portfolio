@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect, useRef } from 'react';
 import TiltedCard from '../components/TiltedCard.jsx';
 import MyImage from '/img/485150347_977801797811132_7519280564660279552_n.jpg';
-
+import FadeIn from '../components/FrameIn.jsx';
 const About = () => {
     {
   const domRef = useRef();
@@ -30,6 +30,8 @@ const About = () => {
    
     <section className="about-section hidden" ref={domRef}>
       
+      
+      <FadeIn>
       <div className="about">
         <h1>ABOUT ME</h1>
       </div>
@@ -53,6 +55,7 @@ const About = () => {
             </div>
           </div>
         </div>
+        
 
         <div className="window portrait-window">
           <div className="window-header">
@@ -85,7 +88,9 @@ const About = () => {
           </div>
         </div>
       </div>
+      </FadeIn>
 
+      <FadeIn>
       <div className='window wide'>
          <div className="window-header">
             <span className="window-title">about-me</span>
@@ -110,6 +115,7 @@ const About = () => {
         </p>
       </div>
       </div>
+      </FadeIn>
     </section>
 
     

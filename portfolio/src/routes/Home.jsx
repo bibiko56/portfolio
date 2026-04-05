@@ -4,7 +4,7 @@ import TiltedCard from '../components/TiltedCard.jsx';
 import MyImage from '/img/485150347_977801797811132_7519280564660279552_n.jpg'; 
 import { Link } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
-import FadeIn from '../FrameIn.jsx';
+import FadeIn from '../components/FrameIn.jsx';
 
 const Home = () => {
 
@@ -183,6 +183,7 @@ const Home = () => {
     </FadeIn>
 
 
+    <FadeIn>
     <section className="contact-section">
       <div className="project">
         <h1>CONTACT ME</h1>
@@ -210,6 +211,7 @@ const Home = () => {
         </form>
       </div>
     </section>
+    </FadeIn>
 
     </div> // End home-wrapper
   );
