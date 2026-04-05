@@ -53,7 +53,7 @@ const Home = () => {
       delay={3000} 
     />
   </span>
-  , a <br /> UI/UX designer
+  <span className="comma-hide">,</span> a <br /> UI/UX designer
 </h1>
         </div>
 

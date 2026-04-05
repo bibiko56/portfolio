@@ -699,4 +699,7 @@
     .about-text {
         margin-bottom: 20px;
     }
+    .comma-hide {
+    display: none;
+  }
 }
