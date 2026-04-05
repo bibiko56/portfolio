@@ -11,7 +11,7 @@ function Footer(){
             
             <div class="footer-links">
                 <a href="https://www.instagram.com/3mnl.mp3/?hl=en" target="_blank" class="f-link"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://linkedin.com/in/yourusername" target="_blank" class="f-link"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/bibiko56" target="_blank" class="f-link"><i class="fa-brands fa-github"></i></a>
                 <a href="https://www.facebook.com/emanuel.mosqueda.7503" class="f-link"><i class="fa-brands fa-facebook"></i></a>
             </div>
         </div>
