@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'; 
 import TextType from '../components/Textype.jsx';
 import TiltedCard from '../components/TiltedCard.jsx'; 
-import MyImage from '/img/485150347_977801797811132_7519280564660279552_n.jpg'; 
+import MyImage from '/img/me.png'; 
 import { Link } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
 import FadeIn from '../components/FrameIn.jsx';
