@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect, useRef } from 'react';
 import TiltedCard from '../components/TiltedCard.jsx';
-import MyImage from '/img/485150347_977801797811132_7519280564660279552_n.jpg';
+import MyImage from '/img/me.png';
 import FadeIn from '../components/FrameIn.jsx';
 const About = () => {
     {
