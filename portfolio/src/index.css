@@ -23,6 +23,7 @@
             max-width: 1300px; 
             margin: 0 auto;   
             width: 90%;
+            text-decoration: none;
         }
 .logo {
             font-size: clamp(24px, 4vw, 32px);
