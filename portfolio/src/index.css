@@ -26,7 +26,7 @@
             
         }
 #navbar a{
-            text-decoration: noneS;
+            text-decoration: none;
         }
 .logo {
             font-size: clamp(24px, 4vw, 32px);
